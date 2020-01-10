@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RN_CourseSchedule'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of RN_CourseSchedule.'
 
 # This description is used to generate tags and improve search results.
@@ -40,5 +40,20 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency "React/Core"
+  s.dependency "React/CxxBridge"
+  s.dependency "React/DevSupport"
+  s.dependency "React/RCTText"
+  s.dependency "React/RCTNetwork"
+  s.dependency "React/RCTWebSocket"
+  s.dependency "React/RCTAnimation"
+  s.dependency "React/RCTActionSheet"
+  s.dependency "React/RCTImage"
+  s.dependency "React/RCTSettings"
+  s.dependency "React/RCTVibration"
+  s.dependency "yoga", "0.59.9.React"
+  s.dependency "DoubleConversion"
+  s.dependency "glog"
+  s.dependency "Folly"
   
 end
