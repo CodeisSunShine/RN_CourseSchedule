@@ -1,0 +1,70 @@
+{
+  "name": "RN_CourseSchedule",
+  "version": "0.1.0",
+  "summary": "A short description of RN_CourseSchedule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/192.168.0.222/RN_CourseSchedule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "192.168.0.222": "myloveiscodejie@163.com"
+  },
+  "source": {
+    "git": "https://github.com/CodeisSunShine/RN_CourseSchedule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RN_CourseSchedule/Classes/**/*",
+  "resources": "RN_CourseSchedule/Assets/*",
+  "dependencies": {
+    "React/Core": [
+
+    ],
+    "React/CxxBridge": [
+
+    ],
+    "React/DevSupport": [
+
+    ],
+    "React/RCTText": [
+
+    ],
+    "React/RCTNetwork": [
+
+    ],
+    "React/RCTWebSocket": [
+
+    ],
+    "React/RCTAnimation": [
+
+    ],
+    "React/RCTActionSheet": [
+
+    ],
+    "React/RCTImage": [
+
+    ],
+    "React/RCTSettings": [
+
+    ],
+    "React/RCTVibration": [
+
+    ],
+    "yoga": [
+      "0.59.9.React"
+    ],
+    "DoubleConversion": [
+
+    ],
+    "glog": [
+
+    ],
+    "Folly": [
+
+    ]
+  }
+}

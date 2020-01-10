@@ -1,0 +1,6 @@
+framework module RN_CourseSchedule {
+  umbrella header "RN_CourseSchedule-umbrella.h"
+
+  export *
+  module * { export * }
+}
